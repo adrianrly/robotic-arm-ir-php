@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* culoare de fundal, font */
+	color:#eee;
+	font-size:0.825em;
+	background: #2f2e2f;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Stilurile sliderelor */
+
+.slider{
+	width:6px;
+	height:192px;
+	border:1px solid #242424;
+	position:relative;
+	float:left;
+	margin:20px 20px 0;
+
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+
+/* culorile sliderelor */
+.slider.yellow{ background:url("img/slider_yellow_bg.png") repeat-y; }
+.slider.white{ background:url("img/slider_white_bg.png") repeat-y; }
+.slider.red{ background:url("img/slider_red_bg.png") repeat-y; }
+.slider.orange{ background:url("img/slider_orange_bg.png") repeat-y; }
+.slider.green{ background:url("img/slider_green_bg.png") repeat-y; }
+.slider.blue{ background:url("img/slider_blue_bg.png") repeat-y; }
+
+
+.slider-maner{
+	position:absolute;
+	left:-11px;
+	width:28px;
+	height:12px;
+	background:url("img/slider_handle.png") no-repeat;
+	cursor:n-resize;
+	top:0%;
+}
+
+.output{
+	width:400px;
+	height:200px;
+	background-color:#282828;
+	float:left;
+	margin:0 0 0 40px;
+	padding:20px;
+	position:relative;
+}
+
+
+
+/* pagina principala */
+
+.main{
+	margin:100px auto;
+	width:840px;
+}
+
+h1{
+	background-color:#292929;
+	border-bottom:1px solid #222222;
+	font-size:20px;
+	font-weight:normal;
+	margin-bottom:15px;
+	padding:15px;
+	text-align:center;
+}
+
+h2 {
+	font-size:12px;
+	font-weight:normal;
+	padding-right:40px;
+	position:relative;
+	right:0;
+	text-align:right;
+	text-transform:uppercase;
+	top:-48px;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.clear{
+	clear:both;
+}
+
+h1,h2,p.tutInfo{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
