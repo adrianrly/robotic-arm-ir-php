@@ -1,3 +1,5 @@
+//Just some tests. Not used.
+
 <?php
 include "php_serial.class.php";
 
